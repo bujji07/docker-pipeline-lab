@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage ("SCM Checkin-1") {
             steps {
-              git branch: 'main', url: 'https://github.com/bujji07/SampleMaven.git'
+              git branch: 'master', url: 'https://github.com/bujji07/SampleMaven.git'
             }
         }
         stage ("maven build") {
